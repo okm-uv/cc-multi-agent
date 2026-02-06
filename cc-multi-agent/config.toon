@@ -1,0 +1,31 @@
+# .cc-multi-agent/config.toon
+# プロジェクト設定ファイル
+#
+# 【重要】project.name はセットアップ後に設定してください
+# 例: project.name: my-awesome-project
+
+version: 1.0
+
+language: ja
+
+project:
+  # プロジェクト名（必須: セットアップ後に設定）
+  name:
+  # プロジェクトルート（devcontainer 内のパス）
+  root: /workspace
+
+logging:
+  # ログレベル: debug, info, warn, error
+  level: info
+  # ログ出力先ディレクトリ
+  path: logs/
+
+# ═══════════════════════════════════════════════════════════════════
+# 各フィールドの用途
+# ═══════════════════════════════════════════════════════════════════
+# version      : 設定ファイルのバージョン
+# language     : エージェント間通信の言語
+# project.name : プロジェクト識別子（context ファイル名などに使用）
+# project.root : プロジェクトのルートディレクトリ
+# logging.level: ログの詳細度
+# logging.path : ログファイルの保存先

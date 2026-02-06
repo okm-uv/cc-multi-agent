@@ -1,0 +1,31 @@
+# Logs
+*.log
+.cc-multi-agent/logs/
+
+# Runtime files
+.cc-multi-agent/queue/tasks/*.toon
+.cc-multi-agent/queue/reports/*.toon
+.cc-multi-agent/queue/president_to_boss.toon
+.cc-multi-agent/queue/boss_to_employees.toon
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+**/service-account*.json
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
